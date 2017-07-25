@@ -14,12 +14,12 @@ namespace AdapterPattern_Inheritance
 
         public void PrintStrong()
         {
-            ShowWithParen();
+            ShowWithAster();
         }
 
         public void PrintWeak()
         {
-            ShowWithAster();
+            ShowWithParen();
         }
     }
 }
