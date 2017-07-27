@@ -8,18 +8,18 @@ namespace AdapterPattern_Inheritance
 {
     public class Banner
     {
-        private String str;
-        public Banner(String str)
+        private readonly string str;
+        public Banner(string str)
         {
             this.str = str;
         }
         public void ShowWithParen()
         {
-            Console.WriteLine("(" + str + ")");
+            Console.WriteLine($"({str})");
         }
         public void ShowWithAster()
         {
-            Console.WriteLine("*" + str + "*");
+            Console.WriteLine($"*{str}*");
         }
     }
 }

@@ -8,7 +8,7 @@ namespace AdapterPattern_Inheritance
 {
     public class PrintBanner : Banner, IPrint
     {
-        public PrintBanner(String str) : base(str)
+        public PrintBanner(string str) : base(str)
         {
         }
 
